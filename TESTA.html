@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body >
+
+<style>table#mySelfTableId{border-collapse: collapse;}
+
+table#mySelfTableId tr.headTr{
+    border-bottom:solid 2px black;
+    border-top: solid 10px white;
+ }
+
+p{
+    margin: 0px!important;
+}
+</style>
+<table data-sort="sortDisabled" id="mySelfTableId">
+    <tbody>
+    <tr class="firstRow headTr">
+        <td rowspan="1" colspan="2" style="word-break: break-all;" valign="top">
+            <strong><span style="font-size: 16px;">一、流程信息</span></strong> <br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="word-break: break-all;" width="416" valign="top">
+            <strong><span style="font-size: 16px;">流程名称：</span></strong><span style="font-size: 16px;">用车申请流程</span> <br/>
+        </td>
+        <td style="word-break: break-all;" width="416" valign="top">
+            <strong><span style="font-size: 16px;">流程编号：</span></strong>YCSQ001
+        </td>
+    </tr>
+    <tr>
+        <td style="word-break: break-all;" rowspan="1" colspan="2" valign="top">
+            <strong><span style="font-size: 16px;">目标任务：</span></strong><span style="font-size: 16px;">对公司车辆，驾驶员的使用调配进行通一管理</span>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1" colspan="2" style="word-break: break-all;" valign="top">
+            <strong><span style="font-size: 16px;">触发条件：</span></strong><span style="font-size: 16px;">人工发起</span>
+        </td>
+    </tr>
+    <tr>
+        <td style="word-break: break-all;" rowspan="1" colspan="2" valign="top">
+            <strong><span style="font-size: 16px;">主要节点：<span style="font-size: 16px;"></span></span></strong><span style="font-size: 16px;"><span style="font-size: 16px;">填写用车申请，车辆调配，驾驶员出车确认，驾驶员还车确认</span></span>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1" colspan="2" style="word-break: break-all;" valign="top">
+            <strong><span style="font-size: 16px;">风险控制点：</span></strong>&nbsp; <span style="font-size: 16px;">车辆调配</span> <br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="word-break: break-all;" width="416" valign="top">
+            <strong><span style="font-size: 16px;">前序流程：</span></strong><span style="font-size: 16px;">无</span>
+        </td>
+        <td style="word-break: break-all;" width="416" valign="top">
+            <strong><span style="font-size: 16px;">后续流程：</span></strong><span style="font-size: 16px;">无</span>
+        </td>
+    </tr>
+    <tr>
+        <td style="word-break: break-all;" width="416" valign="top">
+            <strong><span style="font-size: 16px;">监督流程（管控流程）：</span></strong><span style="font-size: 16px;">无</span> <br/>
+        </td>
+        <td style="word-break: break-all;" width="416" valign="top">
+            <strong><span style="font-size: 16px;">支持流程（资源提供流程）</span></strong>：<span style="font-size: 16px;">无</span>
+        </td>
+    </tr>
+    <tr class="headTr">
+        <td rowspan="1" colspan="2" style="word-break: break-all;" valign="top">
+            <strong><strong><span style="font-size: 16px;">二、流程设计说明</span></strong></strong> <br/>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="1" colspan="2" style="word-break: break-all;" valign="top">
+            填写用车申请--&gt;车辆调配--&gt;驾驶员出车确认--&gt;驾驶员还车确认
+        </td>
+    </tr>
+    <tr class="headTr">
+        <td rowspan="1" colspan="2" style="word-break: break-all;" valign="top">
+            <strong><span style="font-size: 16px;">三、操作说明</span></strong>
+        </td>
+    </tr>
+    <tr>
+        <td style="word-break: break-all;" rowspan="1" colspan="2" valign="top">
+            <p style="margin: 0px">
+                <span style="font-size: 16px;">步骤1 填写申请表单(执行人:表单填写人)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 由填单人在用车申请“待办”中点击&quot;新建&quot;打开用车申请表单。在填写表单各项值后，点击&quot;办理&quot;节点，本<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 次用车申请将自动发送至&quot;车辆&quot;调度员进行审批。<br/>步骤2 分配车辆，驾驶员(执行人:车辆调度员)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 车辆调度员在车辆管理工作台&quot;待办&quot;中可以查看所有未审批的用车申请。在待办事项中打开车辆调度表单选<br/>&nbsp;&nbsp; &nbsp;&nbsp; 择驾驶员，车辆后点击&quot;办理&quot;即可完成本次车辆调配任务。<br/>步骤3 出车确认(执行人:驾驶员)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 当驾驶员在开始发车后，打开出车确认表单，直接点击办理节点后即可完成出车确认。<br/>步骤4 还车确认(执行人:驾驶员)<br/>&nbsp;&nbsp; &nbsp;&nbsp; 当驾驶员在完成本次发车任务后，打开还车确认表单，直接点击办理节点后即可完成还车确认。</span>&nbsp; &nbsp; &nbsp;&nbsp; <br/>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            </p>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
+
+
+

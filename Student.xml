@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stu:学生
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:stu="StudentNamespacee"
+
+
+
+          xsi:schemaLocation="StudentNamespacee test.xsd">
+    <姓名>王二</姓名>
+    <性别>男</性别>
+</stu:学生>
+
+
